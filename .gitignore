@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+
+# Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# LangChain / AI model cache
+.cache/
+huggingface_cache/
+transformers_cache/
+
+# Local model files
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Vector databases / local databases
+chroma/
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+outputs/
+results/
+tmp/
+temp/
+
+# Secrets / API keys
+*.pem
+*.key
+credentials.json
+service-account.json
